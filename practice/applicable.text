@@ -1,0 +1,120 @@
+//1.ways to add existing file in vs code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <img src="images/1.jpeg" alt="Image 1">
+    <img src="images/2.jpeg" alt="Image 2">
+    <img src="images/3.jpeg" alt="Image 3">
+    <img src="images/4.jpeg" alt="Image 4">
+</body>
+</html>
+
+//2. contents that might be used in the html file
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <blockquote>
+        Life is beautiful if you have one cat. If you have more, that will be even better.
+    </blockquote>
+</body>
+</html>
+
+//3. shows my instagram page by clicking the image in my webpage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <a href="https://www.instagram.com/gracepan128/?igsh=enptNm5zeW9tMGZh" target="_blank">
+        <img src="images/your_image.jpg" alt="Description of your image">
+    </a>
+</body>
+</html>
+
+//4.add nav bar (contact me and fun facts about cats)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fun Facts of Cats Navigation -->
+    <nav id="fun-facts-nav">
+        <a href="https://www.petmd.com/cat/general-health/fun-facts-about-cats">Fun Facts about Cats</a>
+    </nav>
+
+    <!-- Contact Me Navigation -->
+    <nav id="contact-me-nav">
+        <a href="contact_me.html">Contact Me</a>
+    </nav>
+
+    <!-- Your page content goes here -->
+</body>
+</html>
+
+#css
+/* CSS for the navigation bars */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* CSS for the specific navigation bars */
+#fun-facts-nav {
+    background-color: #009688; /* Teal */
+}
+
+#contact-me-nav {
+    background-color: #2196F3; /* Blue */
+}
+
+4.texts 
+1)Life is beautiful if you have one cats. It will be even better with two.
+2)three benefits of keeping cats
+Furry Therapists: Pets aren't just companions; they're therapists with fur! They have an innate ability to lift our spirits, reduce stress, 
+and provide unconditional love. From a purring cat to a wagging tail, their presence has a calming effect that rivals even the most 
+seasoned therapists.
+
+Fit Fur Fam: Forget the gym membership – having a pet means built-in exercise routines! Whether it's chasing a frisbee with your dog or 
+engaging in a game of laser pointer with your cat, pets keep us on our toes and ensure we stay active without the dread of a treadmill.
+
+Paws for Empathy: Pets are the furry teachers of life lessons, particularly in empathy and responsibility. Caring for a pet isn't just about 
+feeding and walking; it's about learning to understand their needs, emotions, and non-verbal cues. It's a crash course in empathy that leaves 
+paw prints on our hearts.
+
+3)"In ancient times cats were worshipped as gods; they have not forgotten this." - Terry Pratchett
+
+"Time spent with cats is never wasted." - Sigmund Freud

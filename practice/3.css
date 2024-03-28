@@ -1,0 +1,130 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Times, Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+    grid-template-rows: auto; /* Auto height */
+    gap: 20px; /* Gap between grid items */
+  }
+  
+  /* Hero section styles */
+  .hero-feature {
+    grid-column: 1; /* First column */
+  }
+  
+  .hero-feature img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+  }
+  
+  .hero-call-to-action {
+    grid-column: 2; /* Second column */
+    text-align: center;
+  }
+  
+  /* Ad section styles */
+  .desktop-ad,
+  .phone-ad {
+    grid-column: 3; /* Third column */
+    width: 100%; /* Ensure ads take full width */
+    max-width: 100%; /* Ensure ad images do not exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (max-width: 768px) {
+    .hero-feature,
+    .hero-call-to-action,
+    .desktop-ad,
+    .phone-ad {
+      grid-column: 1 / span 3; /* Span all columns for smaller screens */
+    }
+  }
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .brand img {
+    width: 100px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Search container styles */
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Article section styles */
+  .body {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .article-feature,
+  .article-listing,
+  .sidebar {
+    width: 100%; /* Take full width */
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+  }
+  
+  .back-to-top {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  
